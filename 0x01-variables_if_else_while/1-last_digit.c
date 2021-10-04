@@ -6,6 +6,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
+
 int n;
 int y;
 srand(time(0));
@@ -25,4 +26,5 @@ else if (y != 0 && y < 6)
 printf("Last digit of %d is %d and is less than 6 and not 0\n", n, y);
 }
 return (0);
+
 }
