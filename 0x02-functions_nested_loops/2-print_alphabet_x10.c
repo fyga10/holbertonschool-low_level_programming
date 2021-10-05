@@ -12,6 +12,7 @@ int a = 97;
 for (i = 0; i <= 9; i++)
 {
 while (a < 122)
+a++;
 {
 _putchar(a); 
 }
