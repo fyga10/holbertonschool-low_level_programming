@@ -11,7 +11,7 @@ int i;
 int a = 97;
 for (i = 0; i <= 9; i++)
 {
-while (a < 122)
+while (a < 123)
 a++;
 {
 _putchar(a); 
