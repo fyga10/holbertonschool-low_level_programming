@@ -1,11 +1,9 @@
 # include <stdio.h>
 
 /**
- *
  *main - hexadecimal
  *
  *Return: always 0 (success)
- *
  */
 
 int main(void)
