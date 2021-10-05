@@ -8,13 +8,12 @@
 void print_alphabet_x10(void)
 {
 int i;
-int a = 97;
+int a;
 for (i = 0; i <= 9; i++)
 {
-while (a < 123)
+for (a = 123; a > 96; a--)
 {
 _putchar(a); 
-a++;
 }
 }
 _putchar('\n');
