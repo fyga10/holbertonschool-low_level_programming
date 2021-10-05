@@ -3,10 +3,10 @@
 /**
  * main - alphabet
  *
- *Return: -1
+ *Return: 1
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 int a = 'a';
 while (a <= 'z')
