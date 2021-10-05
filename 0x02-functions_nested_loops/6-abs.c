@@ -12,11 +12,11 @@ int _abs(int r)
 int c;
 if (r < 0)
 {
-c = (r*(-1));
+c = (r * (-1));
 }
 else
 {
-c= r;
+c = r;
 }
-return(c);
+return (c);
 }
