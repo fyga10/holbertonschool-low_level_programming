@@ -14,8 +14,8 @@ for (i = 0; i <= 9; i++)
 while (a<128)
 {
 _putchar(a); 
+_putchar('\n');
 a++;
 }
-_putchar('\n');
 }
 }
