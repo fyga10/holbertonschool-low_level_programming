@@ -1,6 +1,6 @@
 # include <stdio.h>
 /**
- *main - putchar
+ * main - putchar
  *
  *Return: always 0 (success)
  */
