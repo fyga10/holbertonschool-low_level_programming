@@ -11,11 +11,11 @@ int i;
  int a = 97;
 for (i = 0; i <= 9; i++)
 {
-while (a<128)
+while (a<123)
 {
 _putchar(a); 
-_putchar('\n');
 a++;
 }
+_putchar('\n');
 }
 }
