@@ -12,9 +12,9 @@ int print_last_digit(int r)
 int c;
 if (r < 0)
 {
-r= -r;
+r = -r;
 }
-c = (r%10);
+c = (r % 10);
 _putchar('0' + c);
 return (c);
 }
