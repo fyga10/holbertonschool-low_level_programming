@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *_abs(int r) - absolute value
+ *_abs - absolute value
  *@r: number
  *Return: always 0
  */
