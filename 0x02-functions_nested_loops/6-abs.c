@@ -3,11 +3,11 @@
 
 /**
  *_abs(int) - absolute value
- *
+ *@r: number
  *Return: always 0
  */
 
-int _abs(int)
+int _abs(int r)
 {
 int r;
 int c;
@@ -16,7 +16,7 @@ if (r < 0)
 c = (r*(-1));
 _putchar('c');
 }
-else (r >= 0)
+else
 {
 c= r;
 _putchar('c');
