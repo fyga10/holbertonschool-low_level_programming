@@ -14,7 +14,7 @@ for (i = 0; i <= 9; i++)
 while (a < 123)
 a++;
 {
-_putchar(a); 
+_putchar(a);
 }
 _putchar('\n');
 }
