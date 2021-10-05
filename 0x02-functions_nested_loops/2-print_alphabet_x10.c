@@ -11,10 +11,10 @@ int i;
 int a;
 for (i = 0; i <= 9; i++)
 {
-for (a = 123; a > 96; a--)
+for (a = 122; a > 96; a--)
 {
 _putchar(a); 
 }
-}
 _putchar('\n');
+}
 }
