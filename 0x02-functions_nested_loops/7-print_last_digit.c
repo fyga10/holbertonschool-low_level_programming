@@ -15,6 +15,6 @@ if (r < 0)
 r = -r;
 }
 c = (r % 10);
-_putchar('0' + c);
+_putchar(c + '0');
 return (c);
 }
