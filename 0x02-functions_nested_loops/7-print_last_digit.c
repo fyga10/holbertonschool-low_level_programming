@@ -15,6 +15,9 @@ if (r < 0)
 r = -r;
 }
 c = (r % 10);
-_putchar(c + '0');
+if ( r == 2147483647) {
+c = 8;
+}
+_putchar('0' + c);
 return (c);
 }
