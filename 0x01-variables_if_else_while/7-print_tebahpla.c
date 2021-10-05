@@ -9,7 +9,7 @@
 int main(void)
 {
 int a = 122;
-while (a > 60)
+while (a > 96)
 {
 putchar(a);
 a--;
