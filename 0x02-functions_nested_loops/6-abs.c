@@ -13,12 +13,10 @@ int c;
 if (r < 0)
 {
 c = (r*(-1));
-_putchar('c');
 }
 else
 {
 c= r;
-_putchar('c');
 }
 return(c);
 }
