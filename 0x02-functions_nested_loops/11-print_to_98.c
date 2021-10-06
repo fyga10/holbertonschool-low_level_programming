@@ -12,7 +12,9 @@ void print_to_98(int x)
   int a, b;
 if (x == 98)
 {
-_putchar(x);
+_putchar(48 + (x / 10));
+_putchar(48 + (x % 10));
+_putchar(44);
 }
 else if (x < 98)
 {
