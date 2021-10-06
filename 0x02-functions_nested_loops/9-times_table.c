@@ -14,9 +14,9 @@ for (i = 0; i <= 9; i++)
 for (x = 0; x <= 9; x++)
 {
 y = (x * i);
-if(y < 10)
+if (y < 10)
 {
-if(y < 0)
+if (y > 0)
 {
 _putchar(44);
 _putchar(32);
