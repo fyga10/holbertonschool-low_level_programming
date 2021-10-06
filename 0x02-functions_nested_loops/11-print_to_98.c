@@ -5,7 +5,7 @@
  * print_to_98 - natural numbers
  * @x: Check
  *
- * Return: Void
+ * Return: 0
  */
 void print_to_98(int x)
 {
