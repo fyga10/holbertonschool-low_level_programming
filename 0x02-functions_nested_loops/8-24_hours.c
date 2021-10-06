@@ -12,7 +12,7 @@ int i;
 int x;
 for (i = 0; i = 23; i++)
 {
-for (x = 0; x = 59; i++)
+for (x = 0; x = 59; x++)
 {
 _putchar('0' + (i / 10));
 _putchar('0' + (i % 10));
