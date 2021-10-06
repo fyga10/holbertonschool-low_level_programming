@@ -14,7 +14,7 @@ if (x == 98)
 {
 _putchar(48 + (x / 10));
 _putchar(48 + (x % 10));
-_putchar(32);
+_putchar(10);
 }
 else if (x < 98)
 {
@@ -23,6 +23,8 @@ for (a = x; a <= 98; a++)
 if(a < 10)
 {
 _putchar(48 + a);
+_putchar(44);
+_putchar(32);
 }
 else
 {
