@@ -9,40 +9,16 @@
  */
 void print_to_98(int x)
 {
-  int a, b;
-if (x == 98)
+int a;
+if (x < 98)
 {
-_putchar(48 + (x / 10));
-_putchar(48 + (x % 10));
-_putchar(10);
-}
-else if (x < 98)
-{
-for (a = x; a <= 98; a++)
-{
-if(a < 10)
-{
-_putchar(48 + a);
-_putchar(44);
-_putchar(32);
+for (a = x; a <= 97; a++)
+printf("%i, ", a);
 }
 else
 {
-_putchar(48 + (a / 10));
-_putchar(48 + (a % 10));
-_putchar(44);
-_putchar(32);
+for (a = x; a > 98; a--)
+printf("%i, ", a);
 }
-}
-}
-else
-{
-for(b = x; b >= 98; b--)
-{
-_putchar(48 + (b / 10));
-_putchar(48 + (b % 10));
-_putchar(44);
-_putchar(32);
-}
-}
+printf("98\n");
 }
