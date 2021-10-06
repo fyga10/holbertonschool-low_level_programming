@@ -1,24 +1,24 @@
 #include "main.h"
 
 /**
- *jack_bauer - minutes
+ * jack_bauer - minutes of the day
  *
- *Return: 0
+ * Return: 0
  */
 
 void jack_bauer(void)
 {
 int i;
 int x;
-for (i = 0; i = 23; i++)
+for (i = 0; i <= 23; i++)
 {
-for (x = 0; x = 59; x++)
+for (x = 0; x <= 59; x++)
 {
-_putchar('0' + (i / 10));
-_putchar('0' + (i % 10));
-_putchar(':');
-_putchar('0' + (x / 10));
-_putchar('0' + (x % 10));
+_putchar((i / 10) + '0');
+_putchar((i % 10) + '0');
+_putchar(58);
+_putchar((x / 10) + '0');
+_putchar((x % 10) + '0');
 _putchar(10);
 }
 }
