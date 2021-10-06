@@ -5,7 +5,7 @@
  * print_to_98 - natural numbers
  * @x: Check
  *
- * Return: 0
+ * Return: void
  */
 void print_to_98(int x)
 {
@@ -34,5 +34,4 @@ _putchar(44);
 _putchar(32);
 }
 }
-return (0);
 }
