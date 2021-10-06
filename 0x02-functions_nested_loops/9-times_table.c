@@ -13,7 +13,7 @@ for (i = 0; i <= 9; i++)
 {
 for(x =0; x <= 9; x++)
 {
-_putchar(x*i);
+_putchar(x * i);
 _putchar(44);
 _putchar(32);
 }
