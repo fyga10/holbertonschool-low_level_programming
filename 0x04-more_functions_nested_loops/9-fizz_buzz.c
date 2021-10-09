@@ -17,7 +17,14 @@ printf("Fizz ");
 }
 else if (x % 5 == 0 && x % 15 != 0)
 {
+if (x != 100)
+{
 printf("Buzz ");
+}
+else
+{
+printf("Buzz");
+}
 }
 else if (x % 15 == 0)
 {
