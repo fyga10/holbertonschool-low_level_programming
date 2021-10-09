@@ -28,6 +28,6 @@ else
 printf("%d ", x);
 }
 }
-return (0);
 printf("\n");
+return (0);
 }
