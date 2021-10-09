@@ -29,4 +29,5 @@ printf("%d ", x);
 }
 }
 return (0);
+printf("\n");
 }
