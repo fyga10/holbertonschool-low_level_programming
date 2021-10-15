@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 3-strcmp.c - compare
+ * _strcmp - compare
  * @s1: pointer 1
  * @s2: pointer 2
  * Return: s1-d2
