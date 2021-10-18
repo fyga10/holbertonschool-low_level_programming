@@ -17,6 +17,5 @@ return (s);
 }
 s++;
 }
-if (*s != c)
 return (0);
 }
