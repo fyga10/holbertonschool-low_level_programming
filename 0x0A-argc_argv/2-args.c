@@ -9,7 +9,9 @@
 
 int main(int __attribute__((unused)) argc, char **argv)
 {
-	for ( ; *argv; argv++)
-		printf("%s\n", *argv);
-	return (0);
+for ( ; *argv; argv++)
+{
+printf("%s\n", *argv);
+}
+return (0);
 }
