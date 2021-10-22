@@ -15,7 +15,7 @@ if (argc > 1)
 {
 for (i = 1; i < argc; i++)
 {
-if (argv[i][j] < 48 || argv[i][j] > 57)
+if (!isdigit(argv[i][j]))
 {
 printf("Error\n");
 return (1);
