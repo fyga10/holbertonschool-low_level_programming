@@ -9,22 +9,16 @@
 
 char *_strdup(char *str)
 {
-	char *P;
-	int i;
-
-	if (str == NULL)
-		return (NULL);
-
-	P = malloc((length(str)) * sizeof(char));
-
-	if (P == NULL)
-		return (NULL);
-
-	for (i = 0; i < length(str); i++)
-		*(P + i) = *(str + i);
-
-	return (P);
-
+char *P;
+int i;
+if (str == NULL)
+return (NULL);
+P = malloc((length(str)) * sizeof(char));
+if (P == NULL)
+return (NULL);
+for (i = 0; i < length(str); i++)
+*(P + i) = *(str + i);
+return (P);
 }
 
 /**
@@ -35,9 +29,8 @@ char *_strdup(char *str)
 
 int length(char *str)
 {
-	if (*(str) == '\0')
-		return (1);
-	else
-		return (1 + length(str + 1));
-
+if (*(str) == '\0')
+return (1);
+else
+return (1 + length(str + 1));
 }
