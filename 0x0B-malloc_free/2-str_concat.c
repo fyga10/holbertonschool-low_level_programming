@@ -16,8 +16,8 @@ return (leng);
 }
 /**
  * str_concat - Concatenate.
- * @s1: first string 
- * @s2: second string 
+ * @s1: first string
+ * @s2: second string
  * Return: dest
  */
 char *str_concat(char *s1, char *s2)
