@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include "main.h"
-#include <stdio.h>
 
 /**
  * string_nconcat - Concatenates 2 strings
@@ -43,21 +42,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	*(c + i + j) = '\0';
 
 	return (c);
-
-}
-
-/**
- * length - length of a string
- * @str: The string
- * Return: length
- */
-
-unsigned int length(char *str)
-{
-	unsigned int i;
-
-	for (i = 0; *(str + i); i++)
-		;
-
-	return (i);
 }
