@@ -1,9 +1,8 @@
 #include "dog.h"
-#include <stdio.h>
 /**
  * init_dog - dog class structure
  *
- * @d: address
+ * @d: pointer
  * @name: dogs name
  * @age: dogs age
  * @owner: owners name
