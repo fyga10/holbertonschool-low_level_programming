@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * free_dog - free
- * @d: dogs address
+ * @d: dogs addres
  */
 
 void free_dog(dog_t *d)
