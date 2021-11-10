@@ -14,8 +14,8 @@
  */
 typedef struct op
 {
-    char *op;
-    int (*f)(int a, int b);
+char *op;
+int (*f)(int a, int b);
 } op_t;
 
 /* Prototypes */
@@ -25,12 +25,12 @@ int op_mul(int a, int b);
 int op_div(int a, int b);
 int op_mod(int a, int b);
 
-static const op_t ops [] = {
-    {"+",op_add},
-    {"-",op_sub},
-    {"*",op_mul},
-    {"/",op_div},
-    {"%",op_mod},
-    {NULL, NULL},
+static const op_t ops[] = {
+{"+", op_add},
+{"-", op_sub},
+{"*", op_mul},
+{"/", op_div},
+{"%", op_mod},
+{NULL, NULL},
 };
 #endif
