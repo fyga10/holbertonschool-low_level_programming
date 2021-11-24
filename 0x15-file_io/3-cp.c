@@ -7,34 +7,34 @@
  */
 void function_cp(const char *file_to, const char *file_from)
 {
-	int s, dest, f_r;
+	int src, dest, file_r;
 	char buf[1024];
 
-	s = open(file_from, O_RDONLY);
-	if (s == -1)
+	src = open(file_from, O_RDONLY);
+	if (src == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 		exit(98);
 	}
 	dest = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
-	while ((f_r = read(s, buf, 1024)) > 0)
+	while ((file_r = read(src, buf, 1024)) > 0)
 	{
-		if (write(dest, buf, f_r) == -1)
+		if (write(dest, buf, file_r) == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 			exit(99);
 		}
 	}
-	if (f_r == -1)
+	if (file_r == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 		exit(98);
 	}
-	close(s);
+	close(src);
 	close(dest);
-	if (s == -1)
+	if (src == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", s);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", src);
 		exit(100);
 	}
 	if (dest == -1)
