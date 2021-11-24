@@ -18,7 +18,7 @@ int length(char *str)
 	return (i);
 }
 /**
- * create_file Create a file object
+ * create_file - Create a file object
  * @filename: file's name
  * @text_content: NULL
  * Return: !, -1
