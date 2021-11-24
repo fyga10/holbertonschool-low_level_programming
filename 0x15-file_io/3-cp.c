@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * cp - progam that copies.
+ * function_cp - progam that copies.
  * @file_to: Check arguments.
  * @file_from: String arguments.
  * Return: Void.
@@ -47,6 +47,7 @@ void function_cp(const char *file_to, const char *file_from)
 /**
  * main - check the numbers of argument.
  * @argc: numbers of argument.
+ * @argv: arguments
  * Return: 0.
  */
 int main(int argc, char **argv)
