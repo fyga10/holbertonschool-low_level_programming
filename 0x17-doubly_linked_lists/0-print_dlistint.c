@@ -4,9 +4,9 @@
  * @h: head
  * Return: the number of node
  */
-size_t print_dlistint(const dlistint_t *h);
+size_t print_dlistint(const dlistint_t *h)
 {
-	int numb = 0;
+	int num = 0;
 if (h == NULL)
 return (num);
 	while (h->prev != NULL)
