@@ -1,0 +1,5 @@
+CC: the compiler to be used
+SRC: main.c school.c
+#Compile all the .c files to obtain an executable named holberton
+all: $(SRC)
+	$(CC) $(SRC) -o school
