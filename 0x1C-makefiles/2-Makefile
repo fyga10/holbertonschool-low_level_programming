@@ -1,0 +1,7 @@
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+#Compile all the .c files to obtain an executable named school
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
